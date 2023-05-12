@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(0, 23, 56);
+}
+
+h1 {
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    text-decoration: underline cornflowerblue;
+}
+
+table {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(7, 7, 7, 0.2), 0 6px 20px 0 rgba(250, 249, 249, 0.19);
+}
+
+table,td{
+    border: 3px aliceblue solid;
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    /* visibility:hidden; */
+}
+
+td:hover, button:hover{
+    background-color: #0a2663;
+    transition: 0.7s;
+}
+
+td:active, button:active {
+    background-color: #3255be;
+}
+
+button:active {
+    width: 5.6%;
+    height: 4.6%;
+}
+
+button{
+    font-weight: bolder;
+    font-size: 12pt;
+    position: absolute;
+    margin: 2% 50% 0 47%;
+    width: 6%;
+    height: 5%;
+    color: whitesmoke;
+    background-color: rgb(0, 23, 56);
+    border-radius: 12px;
+    border-color: whitesmoke;
+}
+
+
+img{
+    width: 80%;
+    height: 80%;
+    display: none;
+}
